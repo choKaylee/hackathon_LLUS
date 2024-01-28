@@ -1,5 +1,5 @@
-#SHIOM - LIKELION HACKATHON 2024
-##Team: LLUS_Cho
+# SHIOM - LIKELION HACKATHON 2024
+## Team: LLUS_Cho
 
 This is the Landing page of Shiom, in order to view the demo click the link below.
 
