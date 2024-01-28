@@ -1,85 +1,65 @@
+<!--
+Name: Judy Kang
+Date: 08.13.22
+Course: CSE 190E (Startup)
+Description: This is the index.html for my personal website. It contains information 
+about me.
+-->
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/Wlogo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>SHIHOM | Hackathon</title>
+  <body>
+    <header class="header">
+      <img src="images/Wlogo.png" class="uw" alt="UW logo" />
+      <!--Image found on: https://www.washington.edu/brand/graphic-elements/logo-guidelines/-->
 
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+      <div>
+        <ul class="nav-bar">
+          <li>
+            <h4><a href="index.html">HOME</a></h4>
+          </li>
+          <li>
+            <h4><a href="features.html">FEATURES</a></h4>
+          </li>
+          <li>
+            <h4>
+              <a
+                href="https://www.figma.com/proto/dtFEkvuO9OIogwlRT9aa1y/hackathon%2FLLUS?node-id=22-15482&scaling=scale-down&mode=design&t=GhWvpApEyoyyFYhx-1"
+                >TRY DEMO</a
+              >
+            </h4>
+          </li>
+        </ul>
+      </div>
+    </header>
 
-  <link rel="stylesheet" type="text/css" href="style.css">
-  
-</head>
-<body>
-
-  <header class="header">
-            <img class="header__logo" src="images/logo.png"></img>
-            <button class="header__toggle-btn header__toggle-btn--hamburger" id="htb"></button>
-            <button class="btn btn--header">Try Demo</button>
-        </header>
-
-
-       
-<section class="hero">
-  
-   <img class="hero_img" src="images/image-mockups.png">
-     <section  class="hero_text">
-          <h1 class="hero_header">Personalized Learning Experience</h1>
-          <p class="hero_copy">Choose Shiom for a personalized learning experience tailored to your unique needs</p>
-          <button class="btn">Try Demo</button>
-   </section>
-
-
-</section>       
-
-
-<section class="features">
-    <div class="feature__content">
-
-      <h1 class="features__header">Why choose Shiom?</h1>
-      
-      <p class="features__copy">Experience studying that adapts to your unique learning style, pace, and preferences. Our platform's intelligent algorithms customize your learning journey!</p>
-
+    <div class="main">
+      <img src="images/judy.png" class="judy" alt="My photo" />
+      <h1 class="title">A personalized Learning Experience</h1>
+      <div class="about-me">
+        Experience education that adapts to your unique learning style, pace,
+        and preferences. Our platform's intelligent algorithms customize your
+        learning journey, ensuring that every moment is dedicated to your
+        individual needs and goals. Try the demo today and make your college
+        life easier!
+      </div>
     </div>
-     <div class="feature__cards">
-       
-       <article class="features-cards">
-         <img class="features-card__img" src="images/icon-online.svg"></img>
-         <h1 class="features-card__header">Upload any file</h1>
-         <p class="features-card__copy">Our modern web application supports any type of file including URLs, handwritten notes, PDFs, etc.</p>
-       </article>
 
-      <article class="features-cards">
-         <img class="features-card__img" src="images/icon-budgeting.svg"></img>
-         <h1 class="features-card__header">Curated study materials</h1>
-         <p class="features-card__copy">Dynamic question generation based on familiarity or level of confidence.</p>
-       </article>
-
-       <article class="features-cards">
-         <img class="features-card__img" src="images/icon-onboarding.svg"></img>
-         <h1 class="features-card__header">Active Learning Techniques</h1>
-         <p class="features-card__copy">We don’t do passive learning. Learn by teaching,d o mock exams and more.</p>
-       </article>
-    </div>
-  
-</section>
-
-</section>
-
-<footer>
-  <div class="footer__cat-copyright">
-    <button class="btn btn-footer"> Try Demo</button>
-    <p class="footer__copyright"> © Shiom. All Rights Reserved </p>
-  </div>
-</footer>
-
-
-<script type="text/javascript" src="script.js"></script>
-</body>
+    <footer>
+      <img src="images/CSElogo.png" class="cse" alt="cse logo" />
+      <!--Image found on: https://www.engr.washington.edu/mycoe/marcom/branding-collateral/logos-->
+      <p id="citation">© 2022 SHIOM, Likelion 2024 Hackthon.</p>
+    </footer>
+  </body>
 </html>
